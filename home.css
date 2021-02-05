@@ -1,0 +1,28 @@
+.hor_list {
+  display: inline-block;
+  width: 80vw;
+  height: 10vh;
+  background-color: grey;
+  right: 0;
+  align-items: flex-start;
+}
+.hor_buttons{
+  display: inline-block;
+  list-style-type: none;
+  width: 20vw;
+  position: relative;
+  right: 0;
+}
+button{
+  width: 20vw;
+  shape-outside: margin-box;
+  color: grey
+}
+#green_circle {
+  width: 10vh;
+  height: 10vh
+}
+
+body {
+  margin: 0;
+}
